@@ -14,7 +14,7 @@ public class Calculadora_Java {
 		double valor2 = tec.nextDouble();
 		
 		double resultado = valor1 / valor2;	
-		System.out.println("A divis„o dos dois valores È igual a " + resultado);
+		System.out.println("A divis√£o dos dois valores √© igual a " + resultado);
 			
 		tec.close();
 	}
@@ -30,12 +30,12 @@ public class Calculadora_Java {
 		double valor2 = tec.nextDouble();
 		
 		double resultado = valor1 * valor2;	
-		System.out.println("A multiplicaÁ„o dos dois valores È igual a " + resultado);
+		System.out.println("A multiplica√ß√£o dos dois valores √© igual a " + resultado);
 			
 		tec.close();
 	}
 	
-	//SubtraÌ dois valores
+	//Subtra√≠ dois valores
 	
 	public static void operadorSubtracao() {
 		Locale.setDefault(Locale.US);
@@ -46,7 +46,7 @@ public class Calculadora_Java {
 		double valor2 = tec.nextDouble();
 		
 		double resultado = valor1 - valor2;	
-		System.out.println("A subtraÁ„o dos dois valores È igual a " + resultado);
+		System.out.println("A subtra√ß√£o dos dois valores √© igual a " + resultado);
 			
 		tec.close();
 	}
@@ -62,12 +62,12 @@ public class Calculadora_Java {
 		double valor2 = tec.nextDouble();
 		
 		double resultado = valor1 + valor2;
-		System.out.println("A soma dos dois valores È igual a " + resultado);
+		System.out.println("A soma dos dois valores √© igual a " + resultado);
 		
 		tec.close();
 	}
 	
-	//MÈtodo de escolha de operador
+	//M√©todo de escolha de operador
 	
 	public static void main(String[] args) {
 		Scanner tec = new Scanner(System.in);
@@ -87,6 +87,7 @@ public class Calculadora_Java {
 				break;
 			case '/':	
 				operadorDivisao();
+				break;
 			default:
 				break;
 		}
